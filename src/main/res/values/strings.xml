@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyFirstFirebaseAndroidProject</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register_button_text">REGISTER</string>
+    <string name="login_button_text">LOGIN</string>
+    <string name="invalid_input_toast_text">Please enter valid email and password.</string>
+    <string name="registration_successful_text">Registered Successfully.</string>
+    <string name="registration_failed_text">Registration failed.</string>
+    <string name="registration_in_process">Registration in process...</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_success_text">Login success!</string>
+    <string name="login_failed_text">Login Failed!!Invalid Username or Password.</string>
+    <string name="error_username">Please enter valid Username.</string>
+    <string name="error_password">Password should not be less than 6 digit.</string>
+</resources>

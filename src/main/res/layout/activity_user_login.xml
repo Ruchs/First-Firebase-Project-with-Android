@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".app.UserLoginActivity">
+
+    <ImageView
+        android:id="@+id/registration_icon_image"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:layout_marginTop="@dimen/input_fields_margin_top"
+        android:layout_gravity="center"
+        android:src="@drawable/login_icon" />
+
+    <EditText
+        android:id="@+id/username_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/input_fields_margin_left"
+        android:layout_marginTop="@dimen/input_fields_margin_top"
+        android:layout_marginRight="@dimen/input_fields_margin_right"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/password_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/input_fields_margin_left"
+        android:layout_marginTop="@dimen/input_fields_margin_top"
+        android:layout_marginRight="@dimen/input_fields_margin_right"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_Button"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/input_fields_margin_top"
+        android:background="@color/cream"
+        android:onClick="getUsernamePasswordForLogin"
+        android:text="@string/login_button_text" />
+
+</LinearLayout>

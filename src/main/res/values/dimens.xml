@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="input_fields_margin_left">20dp</dimen>
+    <dimen name="input_fields_margin_right">20dp</dimen>
+    <dimen name="input_fields_margin_top">20dp</dimen>
+    <dimen name="icon_width">70dp</dimen>
+    <dimen name="icon_height">70dp</dimen>
+</resources>
